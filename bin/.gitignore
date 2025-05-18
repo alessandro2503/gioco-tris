@@ -1,0 +1,38 @@
+# File specifici di Eclipse
+.classpath
+.project
+.settings/
+
+# Directory di compilazione
+/bin/
+build/
+target/
+
+# File temporanei ed editor
+*.log
+*.tmp
+*.swp
+*~
+*.bak
+
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# Librerie generate o dipendenze locali (se non usi un gestore come Maven o Gradle)
+*.jar
+
+# File di backup di Eclipse o altri IDE
+*.bak
+*.backup
+
+# File di configurazione personale
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Altri IDE (NetBeans, IntelliJ, VSCode)
+nbproject/private/
+.vscode/
+out/
